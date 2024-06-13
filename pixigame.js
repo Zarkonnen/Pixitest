@@ -25,10 +25,10 @@
     }
     
     // Add an animation loop callback to the application's ticker.
-    app.ticker.add((time) =>
+    /*app.ticker.add((time) =>
     {
         for (var i = 0; i < bunnies.length; i++) {
             bunnies[i].x = (bunnies[i].x + 0.1 * time.deltaTime) % 1000;
         }
-    });
+    });*/
 })();

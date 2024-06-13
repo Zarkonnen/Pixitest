@@ -11,7 +11,7 @@ function tick(ms) {
     c.fillStyle = "#1099bb";
     c.fillRect(0, 0, canvas.width, canvas.height);
     for (var i = 0; i < bunnies.length; i++) {
-        bunnies[i].x = (bunnies[i].x + 0.1 * ms) % 1000;
+        //bunnies[i].x = (bunnies[i].x + 0.1 * ms) % 1000;
         img("bunny", bunnies[i].x, bunnies[i].y);
     }
 }
